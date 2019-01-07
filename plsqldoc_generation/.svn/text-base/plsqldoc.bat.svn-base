@@ -1,0 +1,2 @@
+sqlplus -L -S xuprommgr/Ice8ge66@bantest2 @generate_plsqldoc_script.sql > generate_documentation.sql
+"C:\Program Files\PLSQL Developer\plsqldev.exe" userid=xuprommgr/Ice8ge66@bantest2  nosplash commandfile="generate_documentation.sql"
